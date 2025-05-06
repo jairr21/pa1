@@ -1,0 +1,213 @@
+*{
+    --color1:#f8d7da;
+    --color2:#d1ecf1;
+    --color3:#d4edda;
+    --color4:#d9534f;
+    --color5:#337ab7;
+    --color6:#5cb85c;
+}
+#marco{
+    background-image: url(imagenes/imagenes/fondo.jpg);
+    border: 2px dotted gray;
+}
+#subtitulo{
+    display: flex;
+    width: 160px;
+    height: 22px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1298px; 
+    font-size: 15px;
+}
+
+#titulo img{
+    width: 140px;
+    height:140px;
+    border-radius: 150px;
+    margin-left: 30px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+#space{
+    margin: 20px;
+    display: flex;
+    width: 270px;
+    height: 45px;
+    align-items: center;
+    background-color: white;
+    color: deepskyblue;
+    justify-content: center;
+    text-shadow: 0px 10px 10px gray;
+    margin-right: 35px;
+    font-size: 27px;
+    font-family: ice;
+}
+hr{
+    width: 95%;
+    border-color: black;
+}
+
+#titulo{
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+h3{
+    text-decoration: underline;
+    font-family: colb;
+}
+.texto{
+    margin-left: 30px;
+    font-size: 25px;
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#contenedorarriba{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   border: 4px solid black;
+   margin-left:100px;
+   margin-right: 100px;
+   font-size: 20px;
+   text-align: center;
+   height: 510px;
+   font-size: 20px;
+   
+}
+#contenedorarriba img{
+    max-width: 35%;
+    display: block;
+    margin: auto;
+    height: auto;
+    margin-bottom: 10px;
+}
+.cuadro{
+    width: 255px;
+    height: 47px;
+    margin-left: 8px;
+    margin-top: 5px;
+    color: white;
+    font-size: 17px;
+}
+.subtexto{
+    text-align: justify;
+    margin-left: 10px;
+
+}
+.fila{
+    border: solid black 2px;
+    width: 270px;
+    height: 490px;
+}
+.uno{
+    background-color: var(--color1);
+}
+.dos{
+    background-color: var(--color2);
+}
+.tres{
+    background-color: var(--color3);
+}
+.one{
+    background-color: var(--color4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.two{
+    background-color: var(--color5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tree{
+    background-color: var(--color6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contenedorabajo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 4px solid black;
+    margin-left:100px;
+    margin-right: 100px;
+    font-size: 20px;
+    text-align: center;
+    height: 490px;
+}
+.torre{
+    border: solid black 2px;
+    width: 255px;
+    height: 465px;
+    
+}
+.siete{
+    background-color: var(--color1);
+    
+}
+.ocho{
+    background-color: var(--color2);
+}
+.nueve{
+    background-color: var(--color3);
+}
+.cuadrado{
+    width: 240px;
+    height: 47px;
+    margin-left: 8px;
+    margin-top: 5px;
+    color: white;
+    font-size: 20px;
+}
+.four{
+    background-color: var(--color4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.five{
+    background-color: var(--color5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.six{
+    background-color: var(--color6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text{
+    text-align: justify;
+    margin-left: 15px;
+}
+#miimagen{
+    max-width: 30%;
+    display: block;
+    margin: auto;
+    height: auto;
+    border: solid 1px black;
+    box-shadow: 15px 15px 5px lightslategray;
+}
+#cuadroultimo{
+    display: flex;
+    width: 1000px;
+    height: 70px;
+    text-align: center;
+    align-items: center;
+    background-color: white;
+    justify-content: center;
+    margin-left: 250px;
+    font-size: 23px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px black;
+}
